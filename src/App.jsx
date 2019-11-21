@@ -1,6 +1,7 @@
-import React from 'react';
-import './App.css';
-import logo from './logo.svg';
+import React from 'react'
+import './App.css'
+import { Draw3D } from './components/Draw3D'
+import logo from './logo.svg'
 
 function App() {
   return (
@@ -18,8 +19,9 @@ function App() {
           Learn React
         </a>
       </header>
+      <Draw3D />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
